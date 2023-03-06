@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            height: 100vh;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: chocolate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+        p{
+            color: white;    
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <h2>Heading 2</h2>
+
+    <section class="container">
+        <div class="box">
+            <p>1</p>
+        </div>
+    </section>
+    
 </body>
 </html>
