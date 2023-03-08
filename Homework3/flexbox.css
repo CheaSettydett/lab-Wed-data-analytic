@@ -1,0 +1,138 @@
+body{
+    background-color: whitesmoke;
+    flex-basis: auto;
+}
+.topheader{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    color: white;
+    font-size: 20px;
+    
+}
+.image-banner{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_960_720.jpg");
+    color: blueviolet;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image-banner button {
+    color: blueviolet;
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: blueviolet;
+    text-align: center;
+}
+.text p{
+    font-size: 22px;
+}
+
+.next-picture img{
+    height: 350px;
+    width: 600px;
+}
+.picture3{
+    
+    display: flex; 
+    flex-basis: auto;
+    justify-content: space-around;
+}
+.text-picture{
+    height: 400px;
+     
+}
+.pic-text{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic-text img{
+    width: 300px;
+    height: 400px;
+}
+.text2{
+    width: 300px;
+    color: blueviolet;
+    text-align: center;   
+}
+.heading h1{
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+}
+.product-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+         
+}
+
+.card{
+    
+    /* height: 300px; */
+    width: 400px;
+
+}
+.card-body{
+    
+    width: 300px;
+    height: 300px;
+}
+.card-body i{
+    
+    font-size: 100px;
+    color: blueviolet;
+    display:grid;
+    place-items: center ;
+}
+.card-body h1 {
+    color: blueviolet;
+    display:grid;
+    justify-content: center;
+    font-size: 30px;
+}
+.card-body p {
+    
+    color: blueviolet;
+    text-align: center;
+   
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+}
+ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li {
+    display: flex;
+    height: 300px;
+    width: auto; 
+    flex-grow: 1; 
+}
+.gallery img{
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;  
+} 
+
